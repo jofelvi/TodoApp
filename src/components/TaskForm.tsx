@@ -4,7 +4,7 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import React, { useEffect } from 'react'
 import { useStore } from '../Store/useStore.ts'
-import { toast, ToastContainer } from 'react-toastify'
+import { toast } from 'react-toastify'
 
 type taskFormProps = {
   visible: boolean
@@ -62,9 +62,9 @@ const TaskForm = ({ visible, setIsModalOpen }: taskFormProps) => {
   const SaveChanges = (formData: FormData) => {
     formData.key = `${formData.task}${formData.details}`
     if (editingTask) {
+      toast.success('Tarea editada exitosamente')
       updateTask(formData)
       setEditingTask(undefined)
-      toast.success('Tarea editada exitosamente')
     } else {
       toast.success('Tarea agregada exitosamente')
       addTask(formData)
@@ -211,7 +211,6 @@ const TaskForm = ({ visible, setIsModalOpen }: taskFormProps) => {
           />
         </form>
       </FormProvider>
-      <ToastContainer />
     </Modal>
   )
 }

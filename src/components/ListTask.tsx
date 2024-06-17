@@ -45,7 +45,7 @@ const ListTask = ({ setIsModalOpen }: ListTaskProps) => {
       dataIndex: 'task',
       key: 'task',
       defaultSortOrder: 'descend',
-      sorter: (a: any, b: any) => a.name.length - b.name.length,
+      sorter: (a: any, b: any) => a.task.length - b.task.length,
     },
     {
       title: 'Categoría',
