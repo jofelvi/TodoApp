@@ -46,7 +46,7 @@ En resumen, la Arquitectura Modular implementada en "Creador de ToDo App" facili
 
 1. **Clona el repositorio**:
     ```bash
-    git clone https://github.com/jofelvi/Creador-de-ToDo-App.git
+    git clone [https://github.com/jofelvi/Creador-de-ToDo-App.git](https://github.com/jofelvi/TodoApp.git)
     ```
 
 2. **Instalar dependencias**:
