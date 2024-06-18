@@ -41,6 +41,11 @@ En resumen, la Arquitectura Modular implementada en "Creador de ToDo App" facili
 - **Zustand**: Librería de gestión de estado ligera y eficiente.
 - **Ant Design**: Conjunto de componentes UI con estilo para React.
 - **TypeScript**: Lenguaje de programación superconjunto de JavaScript con tipado estático.
+- **React-hook-form**: Para el manejo de formulario.
+- **yup**: nos permite poder crear un schema de validaciones para el formulario.
+- **react-toastify**: Notificaciones muy amigables y eleganytes.
+- **tailwindcss**: Libreria de estilos.
+- **Jest**: Libreria de testing.
 
 ## Instrucciones de uso
 
@@ -70,6 +75,10 @@ mobile: pending
 
 web:
 ![image](https://github.com/jofelvi/TodoApp/assets/31249002/ee5b8888-51ff-41a1-9eaa-7990936931cb)
+
+
+postData: no me dio el tiempo para el diseño tables y mobiles.
+
 
 
 
