@@ -62,6 +62,17 @@ En resumen, la Arquitectura Modular implementada en "Creador de ToDo App" facili
 4. **Acceder a la aplicación**:
     Abre tu navegador web y dirígete a [http://localhost:3000](http://localhost:3000).
 
+responsive: 
+
+![image](https://github.com/jofelvi/TodoApp/assets/31249002/42dc8aa5-d9ad-4a97-a8be-03b121c59958)
+
+mobile: pending
+
+web:
+![image](https://github.com/jofelvi/TodoApp/assets/31249002/ee5b8888-51ff-41a1-9eaa-7990936931cb)
+
+
+
 ## Contribuyendo
 
 ¡Disfruta de la aplicación!
